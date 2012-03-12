@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1">
+<resources>
+    <sprite name="Boat">
+        <image file="example3boat.png">
+            <grid size="159,91" array="4,1" />
+        </image>
+        <animation speed="200" loop="yes" pingpong="no" />
+    </sprite>
+    <sprite name="Tonberry">
+        <image file="tonberry.png">
+            <grid size="37,42" array="3,4" />
+        </image>
+        <animation speed="175" loop="yes" pingpong="no" />
+        <scale x="1.5" y="1.5" />
+    </sprite>
+    <sprite name="ground_tileset">
+        <image file="ground.png">
+            <grid size="40,40" array="3,3" />
+        </image>
+        <scale x="1.5" y="1.5" />
+    </sprite>
+    <tilemap name="cliff" resource="ground_tileset" width="12" height="10">
+        <layer name="ground">
+            0,1,1,2,0,1,1,1,1,1,1,2,
+            3,4,4,5,3,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            3,4,4,4,4,4,4,4,4,4,4,5,
+            6,7,7,7,7,7,7,7,7,7,7,8,
+        </layer>
+    </tilemap>
+</resources>
