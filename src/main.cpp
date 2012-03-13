@@ -273,7 +273,7 @@ public:
         system_font_desc.set_height(30);
         CL_Font_System system_font(gc, system_font_desc);
 
-        CL_ResourceManager resources("resources.xml");
+        CL_ResourceManager resources("resources/resources.xml");
 	CL_Sprite boat_sprite(gc, "Boat", &resources);
         
         GameSprite tonberry_sprite(window, resources, "Tonberry",3);
